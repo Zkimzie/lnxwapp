@@ -1,0 +1,8 @@
+<view class="good-item" >
+  <image      class="good-image" src="{{item.pic}}"     mode="widthFix"   ></image>
+  <view class="good-detail">
+    <view>标题: {{item.title}}</view>
+    <view  class="content">来源： {{item.from}}  </view>
+    <view  class="count">内容： {{item.content}}  </view>
+     </view>
+</view>

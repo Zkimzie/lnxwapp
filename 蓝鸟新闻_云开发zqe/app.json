@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/mine/admin/admin",
+    "pages/mine/userinfo/userinfo",
+    "pages/mine/msg/msg",
+    "pages/pro/apply/apply",
+    "pages/pro/release/release",
+    "pages/index/news/news2-1/news2-1",
+    "pages/index/news/news3-1/news3-1",
+    "pages/index/news/news3-6/news3-6",
+    "pages/index/news/news4-1/news4-1",
+    "pages/index/news/news5-3/news5-3",
+    "pages/video/video",
+    "pages/video/video/video1/video1",
+    "pages/video/video/video2/video2"
+  ],
+  "tabBar": {
+    "selectedColor": "#131E43",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "新闻",
+        "iconPath": "./images/yuedu.png",
+        "selectedIconPath": "./images/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "./images/dianying.png",
+        "selectedIconPath": "./images/dianying_hl.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#131E43",
+    "navigationBarTitleText": "Blue Bird News Agency",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

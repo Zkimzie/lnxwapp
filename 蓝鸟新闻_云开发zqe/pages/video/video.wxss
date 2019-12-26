@@ -1,0 +1,26 @@
+.box{
+  height:400rpx;
+  width: 700rpx;
+  padding-top: 10rpx;
+  margin-top:10rpx;
+  margin-left: 25rpx;
+}
+.video-box{
+  height: 320rpx;
+  width:660rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right:20rpx;
+}
+.box-title{
+  height:40rpx;
+  width:660rpx;
+  margin-top:20rpx;
+  margin-right:20rpx;
+  margin-left:20rpx;
+  font-size: 30rpx;
+}
+.imageCss{
+  height: 320rpx;
+  width: 660rpx;
+}
