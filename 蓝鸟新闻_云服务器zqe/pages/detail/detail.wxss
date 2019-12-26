@@ -1,0 +1,17 @@
+/* pages/detail/detail.wxss */
+
+page{
+  background-color: #131E43;
+}
+
+
+.good-detail {
+ font-size: 18px;
+ display: -webkit-box;
+ white-space: normal;
+ color: #fff;
+ -webkit-line-clamp:2;
+ -webkit-box-orient: vertical;
+ margin-left: 10px;
+ text-align:center right;
+}

@@ -1,0 +1,42 @@
+
+ <view class='btns'>
+  <navigator url="/pages/index/index"   open-type="navigate"  class="nav">
+  <view class="nav_btn {{gameType == '0' ? 'selected' : ''}}" bindtap="navbtn" data-id='0'>新闻</view>
+  </navigator>
+ <navigator url="/pages/index1/index1"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '1' ? 'selected' : ''}}" bindtap="navbtn" data-id='1'>视野</view>
+  </navigator>
+  <navigator url="/pages/index2/index2"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '2' ? 'selected' : ''}}" bindtap="navbtn" data-id='2'>呈现</view>
+    </navigator>
+  <navigator url="/pages/index3/index3"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '3' ? 'selected' : ''}}" bindtap="navbtn" data-id='4'>特辑
+</view>
+  </navigator>
+ <navigator url="/pages/index4/index4"   open-type="navigate"  class="nav" >
+<view class="nav_btn {{gameType == '4' ? 'selected' : ''}}" bindtap="navbtn" data-id='4'>通知
+</view>
+  </navigator>
+</view>
+<view class="slides">
+    <swiper autoplay circular>
+      <swiper-item wx:for="{{dataList}}" wx:key="{{index}}">
+        <navigator>
+          <image mode="widthFix" src="{{item.img}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+<!--列表渲染  -->
+
+<view class="good-wrap">
+<view class="good-item" wx:for="{{dataList}}"  wx:key="item" >
+<view class="good-root" mode="widthFix">
+  <image  bindtap="go"style="width:200rpx;height:100rpx" data-id="{{item.id}}"   class="good-image" src="{{item.img}}"     mode="widthFix"   ></image>
+  </view>
+  <view class="good-detail">
+    <view>标题: {{item.title}}</view>
+    <view>内容： {{item.description}}  </view>
+     </view>
+</view>
+</view>

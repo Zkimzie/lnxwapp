@@ -1,0 +1,132 @@
+.item-container {
+  box-shadow: 0 4px 8px 0 gainsboro;
+  width: 88%;
+  margin: 4%;
+  background: white;
+  padding: 2%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+page{
+  background-color: #131E43;
+}
+.nav{
+width:150rpx;
+}
+.btns {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  height: 84rpx;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.scroll{
+  margin-top: 85rpx;
+}
+
+.btns .nav_btn {
+  flex-shrink: 0;
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  font-size: 34rpx;
+  border-bottom: 4rpx solid #fff;
+}
+
+.btns .nav_btn.selected {
+  border-bottom: 4rpx solid #131E43;
+  color: #131E43;
+}
+
+.scroll .ball_btns {
+  width: 450rpx;
+  height: 50rpx;
+  display: flex;
+  margin: 20rpx auto;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.scroll .ball_btns .ballbtn {
+  flex: 1;
+  background-color: #fff;
+  font-size: 30rpx;
+  color: #131E43;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 2rpx solid #131E43;
+}
+
+.scroll .ball_btns .left {
+  border-top-left-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+}
+
+.scroll .ball_btns .right {
+  border-top-right-radius: 8rpx;
+  border-bottom-right-radius: 8rpx;
+}
+
+.scroll .ball_btns .ballbtn.selected {
+  color: #fff;
+  background-color: #131E43;
+}
+
+.slides{
+  margin-top: 10rpx;
+}
+.slides swiper{
+  width: 100%;
+  height: 400rpx;
+}
+.slides navigator{
+  width: 100%;
+  height: 100%;
+}
+.slides image{
+  width: 100%;
+  height: 100%;
+}
+.good-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rpx;
+  justify-content: space-between;
+}
+.good-item {
+ display: flex;
+ width: 100%;
+ padding: 10px;
+ padding-left: 10px;
+ border-bottom: 1px solid #eee;
+}
+.good-image{
+  width: 100%;
+  height: 100%;
+  border: 2rpx solid #eee;
+}
+
+.good-detail {
+ font-size: 12px;
+ display: -webkit-box;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: normal;
+ word-wrap: break-word;
+ color: #fff;
+ -webkit-line-clamp:2;
+ -webkit-box-orient: vertical;
+ margin-left: 10px;
+ text-align:center right;
+}

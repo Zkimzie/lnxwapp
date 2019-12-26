@@ -1,0 +1,6 @@
+<import src='/pages/videosDetail/videosDetail.wxml' />
+<block wx for='{{lsitArr}}'>
+<template is="video" data="{{text: 'forbar'}}"/>
+</block>
+
+
